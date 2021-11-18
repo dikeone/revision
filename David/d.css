@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+
+
+
+/* tag name */
+
+h3{
+    color: red;
+}
+
+p{
+    font-size: 5px
+}
+
+img{
+    width: 300px;
+    height: 50px;
+}
+section{
+    display: flex;
+}
+
+/* 
+call by class */
+
+.rrr{
+    color: blue;
+}
+
+.dog{
+    height: 200px;
+}
+
+#para{
+    font-size: 35px;
+}
+
+
+.container{
+    border: 5px dashed green;
+    margin-right: 20px;
+}
+
+.containerr{
+    display: flex;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0e365a;
+    color: white;
+    padding: 20px 0 0 0;
+
+    
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left img{
+    width: 100px;
+}
+
+
+.nav-left ul {
+    display: flex;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.nav-right ul{
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-right ul li {
+    margin-left: auto;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.nav-left ul li:hover{
+    color: orangered;
+    cursor: pointer;
+   
+
+}
+
+.sub{
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.sub:hover{
+    background-color: orangered;
+}
+
+.sub a {
+    color: white;
+    text-decoration: none;
+}
+
+.gbi{
+    background-image: url("https://th.bing.com/th/id/OIP.G08Ju_fHAzLZPJPi9FWDQwHaFj?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    height: 300px;
+    color: white;
+}
+
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.G08Ju_fHAzLZPJPi9FWDQwHaFj?pid=ImgDet&rs=1");
+}
